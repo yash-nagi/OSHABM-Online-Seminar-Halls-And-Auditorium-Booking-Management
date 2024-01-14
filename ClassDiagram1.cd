@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OSHABM_proj.RouteConfig" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.MvcApplication" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.SqlHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEACBBAAQQBAAAARAAEQAAAAAAAAAAAAACEAA=</HashCode>
+      <FileName>Repository\SqlHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.AuditoriumController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAEAAAAAAAAAEAAEACACAAAAAEAAA=</HashCode>
+      <FileName>Controllers\AuditoriumController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.BookingDetailController" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAACAAAAAAAAACFAAEACAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\BookingDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.CancellationDetailController" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABIAAAAAgAAAAAAAEAAEACAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CancellationDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.FeedbackDetailController" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABIAAAAAACAAAAAAEAAEACAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\FeedbackDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.LoginDetailController" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABAAAAAAAAAAAAAAEAAEACAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\LoginDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.PaymentDetailController" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgBAAAAAIAAAAAAAAEAAEAKAQAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PaymentDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.QueryDetailController" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAABAAAAAAAAAAAAAAEAAEgCAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\QueryDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.StaffDetailController" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAABAAAAAAAAAAAAACEAAEACAEAAAAAAAAA=</HashCode>
+      <FileName>Controllers\StaffDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.UserDetailController" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAABAACAAAAAAAAAAAEAAEACAAAAAAAIAAA=</HashCode>
+      <FileName>Controllers\UserDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Controllers.WelcomeController" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAA=</HashCode>
+      <FileName>Controllers\WelcomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.AuditoriumDetails" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAACAIAAAQAAAAAAAAAAQAAIAAAAAA=</HashCode>
+      <FileName>Models\AuditoriumDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.Booking" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAgAAgAEAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Booking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.Cancellation" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAgAABAQAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\Cancellation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.Feedback" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAIgAAAACAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\Feedback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.Login" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.Payment" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAgCAgAAAyAAAACAAAAAQAAACAAAAA=</HashCode>
+      <FileName>Models\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.Query" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAACAAAAAAAAQAAAACAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.Staff" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAACAACCAAAAAgAAAAA=</HashCode>
+      <FileName>Models\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.User" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAIwAAAACAACCAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Models.UserLogin" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\UserLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.AuditoriumRepository" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAIIAAAAAAAEAAACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Repository\AuditoriumRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.BookingRepository" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAA=</HashCode>
+      <FileName>Repository\BookingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.CancellationRepository" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\CancellationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.FeedbackRepository" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\FeedbackRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.PaymentRepository" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAABAAAAAAAAAAIEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\PaymentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.QueryRepository" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAACAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\QueryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.StaffRepository" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Repository\StaffRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Repository.UserRepository" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIAAAAgABAAAAAQAAAAAAAAAAABEAAAA=</HashCode>
+      <FileName>Repository\UserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.AuditoriumService" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAIAAAAAAAAEAAACAAAAAAAABAAAgAAAAA=</HashCode>
+      <FileName>Services\AuditoriumService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.BookingService" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAIAQAAAAAAAA=</HashCode>
+      <FileName>Services\BookingService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.CancellationService" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CancellationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.FeedbackService" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\FeedbackService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.PaymentServeice" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAABAAAAAAAAAAIEAAAAAACAAAAAA=</HashCode>
+      <FileName>Services\PaymentServeice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.QueryService" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAACAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\QueryService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.StaffService" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Services\StaffService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSHABM_proj.Services.UserService" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIAAAAgABAAAAAQAAAAAAAAAAABEAAAA=</HashCode>
+      <FileName>Services\UserService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OSHABM_proj.Controllers.IActionResult" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\IActionResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

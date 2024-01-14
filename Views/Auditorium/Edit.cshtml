@@ -1,0 +1,257 @@
+﻿@model OSHABM_proj.Models.AuditoriumDetails
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- header section start -->
+<div class="header_section">
+    <nav class="destop_header navbar navbar-expand-lg navbar-light bg-light">
+        <div class="logo"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="logo_main" href="@Url.Action("Index","Welcome")">
+                        <img src="~/Content/images/OSHABM logo.png" height="100" width="200" />
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" @Html.ActionLink("Home", "Index", "Welcome")</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" @Html.ActionLink("About", "Index", "Welcome")</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" @Html.ActionLink("Services", "Index", "Welcome")</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" @Html.ActionLink("Images", "Index", "Welcome")</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" @Html.ActionLink("Contact", "Index", "Welcome")</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Login","Welcome")">
+                        <img src="~/Content/images/search-icon.png">
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" @Html.ActionLink("LOGIN", "Login", "Welcome")</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- header section end -->
+<div style="background-color:darkkhaki">
+    <br />
+    <br />
+    <h2>Edit</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>AuditoriumDetails</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.Id)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.AuditID, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.AuditID, new { htmlAttributes = new { @class = "form-control", @readonly="readonly" } })
+                    @Html.ValidationMessageFor(model => model.AuditID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Location, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Location, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Location, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Type, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Type, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Type, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "EditAuditoruium")
+    </div>
+</div>
+<!-- footer section start -->
+<!-- info section -->
+<div class="info_section layout_padding">
+    <div class="container ">
+        <div class="info_content">
+            <div>
+                <div class="row">
+                    <div class="col-md-4" style="max-width:19.3%">
+
+                        <div class="d-flex ">
+                            <ul>
+                                <li>
+                                    <a href="#About">
+                                        ABOUT US
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#Services">
+                                        SERVICES
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#Contact">
+                                        CONTACT US
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4" style="max-width:19.3%">
+                            <div class="d-flex">
+                                <ul class="ml-3 ml-md-5">
+                                    <li>
+                                        <a href="">
+                                            PRIVACY POLICY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            DISCLAIMER
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            TERMS & CONDITIONS
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="max-width:19.3%">
+                        <div class="d-flex ">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        BLOG
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        SITEMAP
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="max-width:19.3%">
+                        <div class="d-flex ">
+                            <ul>
+                                <li>
+                                    <a href="@Url.Action("Login", "Welcome")">
+                                        BOOKINGS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Login", "Welcome")">
+                                        PAYMENTS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Create", "FeedbackDeteail")">
+                                        FEEDBACK
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Create", "QueryDetail")">
+                                        QUERY
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+                        <div class="social-box">
+                            <a href="" target="_blank" rel="nofollow">
+                                <img src="~/Content/images/fb-icon.png" alt="" />
+                            </a>
+                            <a href="" target="_blank" rel="nofollow">
+                                <img src="~/Content/images/twitter-icon.png" alt="" />
+                            </a>
+                            <a href="" target="_blank" rel="nofollow">
+                                <img src="~/Content/images/linkedin-icon.png" alt="" />
+                            </a>
+                            <a href="" target="_blank" rel="nofollow">
+                                <img src="~/Content/images/instagram-icon.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- end info section -->
+<!-- footer section end -->
+<!-- copyright section start -->
+<div class="copyright_section">
+    <div class="container">
+        <p class="copyright">© 2023 Online Seminar Halls and Auditorium Booking Management. All Rights Reserved</p>
+    </div>
+</div>
+<!-- Javascript files-->
+<!--<script src="~/Content/js/jquery.min.js"></script>
+<script src="~/Content/js/popper.min.js"></script>
+<script src="~/Content/js/bootstrap.bundle.min.js"></script>
+<script src="~/Content/js/jquery-3.0.0.min.js"></script>
+<script src="~/Content/js/plugin.js"></script>-->
+<!-- sidebar -->
+<!--<script src="~/Content/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="~/Content/js/custom.js"></script>-->
+<!-- javascript -->
